@@ -30,7 +30,7 @@ Now you can install the IQ OPTION API as library:
 sudo pip install -U git+git://github.com/iqoptionapi/iqoptionapi.git
 ```
 
-## Instantiating your own classes of bot
+### Instantiating your own classes of bot
 
 ```
 from robo import Robo
@@ -46,7 +46,7 @@ if __name__ == "__main__":
     Iq = Robo(id, email, password, asset,value,minutos)
 ```
 
-## Usage
+### Usage
 
 Put your email and password in the userdata.py to IQ OPTION login like this:
 
