@@ -18,16 +18,11 @@ Trrb bot is a Python software to automate IQ Option inputs through scraping and 
 
 You must have python installed version 3.7 or higher
 
-then you must have websocket-client installed on your project
+Just install all with:
 
-```python
-pip install websocket-client==0.56
-```
-
-Now you can install the IQ OPTION API as library:
-
+'''
 ```bash
-sudo pip install -U git+git://github.com/iqoptionapi/iqoptionapi.git
+pip install -r requirements.txt
 ```
 
 ### Instantiating your own classes of bot
@@ -40,10 +35,10 @@ import logging
 id = 'name_of_your_bot_teste'
 asset = 'EURUSD' 
 value = 1
-minutos = 1
+minutes = 1
 
 if __name__ == "__main__":
-    Iq = Robo(id, email, password, asset,value,minutos)
+    Iq = Robo(id, email, password, asset, value, minutes)
 ```
 
 ### Usage
