@@ -8,7 +8,8 @@ if __name__ == "__main__":
 
 """
     TO DO
-
+    
+___ Implementar logging e testes
 ___ Implementar stop loss e stop gain
 ___ Checar vitoria e derrota
 ___ Implementar o weight_of_indicators:
