@@ -2,7 +2,7 @@ import logging
 from json import dumps
 from time import sleep
 
-from .boot_base import BaseBoot
+from trrb_core.boot_base import BaseBoot
 
 FORMAT = "%(levelname)s %(asctime)-15s %(filename)s %(module)s %(funcName)s %(message)s"
 logging.basicConfig(format=FORMAT)

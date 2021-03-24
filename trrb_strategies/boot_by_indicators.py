@@ -2,8 +2,7 @@ from json import dumps
 from time import sleep
 
 from iqoptionapi.stable_api import IQ_Option
-
-from .boot_base import BaseBoot
+from trrb_core.boot_base import BaseBoot
 
 
 class Boot(BaseBoot):
@@ -11,16 +10,16 @@ class Boot(BaseBoot):
         self,
         email,
         password,
-        asset="EURJPY-OTC",
+        mode,
         value=1,
         minutos=5,
         operations=10000,
     ):
         self.email = email
         self.password = password
+        self.mode = mode
         self.api = self.connect()
-        self.asset = self.get_best_payouts()
-        print(asset)
+        self.asset = self.get_best_payouts()['greater_binary_payout']
         self.value = value
         self.minutos = minutos
         #  self.weight_of_indicators = self.get_weight_of_indicators()

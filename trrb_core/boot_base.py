@@ -3,11 +3,11 @@
 # Escolher tipo de opção e timeframe
 from iqoptionapi.stable_api import IQ_Option
 
-
 class BaseBoot:
-    def __init__(self, email, password):
+    def __init__(self, email, password, mode):
         self.email = email
         self.password = password
+        self.mode = mode
 
     def connect(self):
         if self.email == "" and self.password == "":
