@@ -55,10 +55,14 @@ To execute the project the way it is:
 
 ## Todo 📝
 
->> Fazer rodar ✔️ 
+>> Fazer rodar ✔️
+
 >> Refatorar
+
 >> Adicionar testes
+
 >> Configurar modo PRATICE/REAL
+
 >> Adicionar DB
 
 ## Contributing
