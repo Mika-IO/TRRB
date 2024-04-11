@@ -2,7 +2,7 @@ astroid==2.4.2
 certifi==2023.7.22
 chardet==3.0.4
 colorama==0.4.4
-idna==2.10
+idna==3.7
 iqoptionapi @ git+git://github.com/iqoptionapi/iqoptionapi.git@bddf6d43b7f0a6832cbd5321377d1e9490afe877
 isort==5.6.4
 lazy-object-proxy==1.4.3
